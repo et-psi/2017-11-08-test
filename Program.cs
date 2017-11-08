@@ -10,6 +10,10 @@ namespace Additionneur
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Additionneur");
+            Console.WriteLine("============");
+
+            Console.Read();
         }
     }
 }
