@@ -11,7 +11,13 @@ namespace Additionneur
         static void Main(string[] args)
         {
             Console.WriteLine("Additionneur");
-            Console.WriteLine("============");
+            Console.WriteLine("============" + Environment.NewLine);
+
+            Console.Write("Saisir une valeur numérique : ");
+            double dblVal1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("valeur saisie : " + dblVal1.ToString());
+
 
             Console.Read();
         }
