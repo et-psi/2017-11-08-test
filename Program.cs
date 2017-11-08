@@ -16,7 +16,8 @@ namespace Additionneur
             Console.Write("Saisir une valeur réélle : ");
             double dblVal1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("valeur saisie : " + dblVal1.ToString());
+            Console.Write("Saisir une deuxième valeur réélle : ");
+            double dblVal2 = Convert.ToDouble(Console.ReadLine());
 
 
             Console.Read();
